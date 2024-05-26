@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+#lol{
+    padding: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: aqua;
+}
+#catalogo{
+    float: right;
+}
+.ele{
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+    margin: 2%;
+}
+#negozio{
+    margin: 5%;
+    display:flex;
+}
+#eventi{
+    margin: 5%;
+    display:flex;
+}
+#extra{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: black;
+}
