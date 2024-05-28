@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <Link rel="stylesheet" href="..\CSS\index.css">
 </head>
+
 <body>
     <div id="lol"><!--immagine + caratteristiche sito-->
-        <img src="" alt="" id="logo">
+        <img src="..\IMG\giacomoLeopardilogo.png" alt="logo" id="logo">
         <div id="catalogo">
             <table>
                 <tr>
@@ -22,30 +24,38 @@
     </div>
     <div id="negozio"><!--novità negozio-->
         <div class="ele">
-            <img src="" alt="">
-            <p></p>
+            <img src="..\IMG\Libro1.png" alt="Libro1" class="neg">
+            {% lorem 1 p %}
         </div>
         <div class="ele">
-            <img src="" alt="">
-            <p></p>
+            <img src="..\IMG\pennaLeopardi.png" alt="Penna" class="neg">
+            {% lorem 1 p %}
         </div>
         <div class="ele">
-            <img src="" alt="">
-            <p></p>
+            <img src="..\IMG\Libro2.png" alt="Libro2" class="neg">
+            {% lorem 1 p %}
         </div>
     </div>
     <div id="eventi"><!--novità eventi-->
         <div class="ele">
             <img src="" alt="">
-            <p></p>
+            {% lorem 1 p %}
         </div>
         <div class="ele">
             <img src="" alt="">
-            <p></p>
+            {% lorem 1 p %}
         </div>
     </div>
     <div id="extra"><!--extra info-->
-
+        <h1>Partner</h1>
+        <div id="partners">
+            <a href="https://www.monsterenergy.com/it-it/"><img src="..\IMG\MonsterLogo.png" alt="PartnerMonster" class="sponsor"></a>
+            <a href="https://www.levlup.com/it-it"><img src="..\IMG\LevelUpSponsor.png" alt="PartnerLevelUp" class="sponsor"></a>
+            <a href="https://www.caffedigiampaolo.it/"><img src="..\IMG\Di-Giampaolo-CaffeSponsor.png" alt="CaffèSponsor" class="sponsor"></a>
+            <a href="https://www.mondadori.it/"><img src="..\IMG\mondadoriSponsor.png" alt="PartnerMondadori" class="sponsor"></a>
+            <a href="https://www.duolingo.com/"><img src="..\IMG\DuolingoSponsor.png" alt="PartnerDuolingo" class="sponsor"></a>
+        </div>
     </div>
 </body>
+
 </html>
