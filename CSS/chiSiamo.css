@@ -1,0 +1,33 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    background-color: #383C5C;
+    color: aliceblue;
+}
+#lol{
+    padding: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #3B4487;
+}
+#logo{
+    width: 15vw;
+}
+#catalogo{
+    float: right;
+}
+.info{
+    margin: 2%;
+    float: left;
+    clear: left;
+}
+#iL{
+    margin: 0 10px;
+    
+    width: 50%;
+    height:max-content;
+    float: left;
+}
+#iG{
+
+}
