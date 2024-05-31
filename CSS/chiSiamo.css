@@ -1,33 +1,55 @@
-body{
+body {
     font-family: monospace;
     margin: 0;
     background-color: #383C5C;
     color: aliceblue;
 }
-#lol{
-    padding: 5%;
+
+#lol {
+    padding: 1% 5%;
     margin-left: 0px;
     margin-right: 0px;
     background-color: #3B4487;
 }
-#logo{
-    width: 15vw;
+
+#logo {
+    width: 13vw;
 }
-#catalogo{
+
+#catalogo {
     float: right;
+    margin-top: 4.5%;
 }
-.info{
+
+#menu {
+    border-spacing: 50px 0px;
+    font-size: 25px;
+}
+
+#linkMenu a:link,
+#linkMenu a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#linkMenu a:hover,
+#linkMenu a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
     margin: 2%;
     float: left;
     clear: left;
 }
-#iL{
+
+#iL {
     margin: 0 10px;
-    
+
     width: 50%;
-    height:max-content;
+    height: max-content;
     float: left;
 }
-#iG{
 
-}
+#iG {}
