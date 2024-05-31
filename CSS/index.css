@@ -2,7 +2,7 @@ body{
     font-family: monospace;
     margin: 0;
     background-color: #383C5C;
-    color: black;
+    color: aliceblue;
 }
 #lol{
     padding: 5%;
@@ -11,7 +11,7 @@ body{
     background-color: #3B4487;
 }
 #logo{
-    width: 10%;
+    width: 15vw;
 }
 #catalogo{
     float: right;
