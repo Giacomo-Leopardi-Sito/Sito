@@ -1,0 +1,7 @@
+In questo lavoro ci sono 3 parti distinte
+
+1)Aprire il collegamento "sito" per raggiungere (appunto) il sito
+2)Nella sezione "Chi siamo" del sito si trova il richiamo alla pagina Instagram
+3)Il poster promozionale trovabile proprio in questa cartella
+
+andare nelle cartelle CSS HTML e IMG porteranno solamente a delle sezioni del sito che è meglio si vedano tutte assieme tramite il collegamento
