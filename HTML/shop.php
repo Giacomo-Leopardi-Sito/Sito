@@ -9,19 +9,9 @@
 </head>
 
 <body>
-    <div id="lol">
-        <!--immagine + caratteristiche sito-->
-        <a href="./index.html"><img src="..\IMG\giacomoLeopardilogo.png" alt="logo" id="logo"></a>
-        <div id="catalogo">
-            <table id="menu">
-                <tr id="linkMenu">
-                    <th><a href="./chiSiamo.html">Chi siamo</a></th>
-                    <th><a href="./shop.html">Shop</a></th>
-                    <th><a href="./eventi.html">Eventi</a></th>
-                </tr>
-            </table>
-        </div>
-    </div>
+    <?php
+        include './menu.html'
+    ?>
     
     <div style="text-align: center;">
         <h1 style="color: aliceblue; font-size:50px; text-align: center;">Catalogo</h1>
@@ -36,7 +26,7 @@
         <h2>Funko pop "Giacomo Leopardi"</h2>
         <h2>Prezzo: 15.99€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/funko.html">
+        <a href="./pagineProdotti/funko.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>
@@ -55,7 +45,7 @@
         <h2>"Natura Matrigna"</h2>
         <h2>Prezzo: 25.00€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/libro1.html">
+        <a href="./pagineProdotti/libro1.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>
@@ -70,7 +60,7 @@
         <h2>Penna "Giacomo Leopardi"</h2>
         <h2>Prezzo: 12.00€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/penna.html">
+        <a href="./pagineProdotti/penna.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>
@@ -85,7 +75,7 @@
         <h2>"Lo sguardo oltre all' infinito"</h2>
         <h2>Prezzo: 30.50€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/libro2.html">
+        <a href="./pagineProdotti/libro2.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>
@@ -100,7 +90,7 @@
         <h2>Maglietta "Giacomo Leopardi"</h2>
         <h2>Prezzo: 18.00€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/t-shirt.html">
+        <a href="./pagineProdotti/t-shirt.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>
@@ -115,7 +105,7 @@
         <h2>Tazza "Giacomo Leopardi"</h2>
         <h2>Prezzo: 15.00€</h2>
         <h2>disponibiltà: Fino a esaurimento scorte</h2>
-        <a href="./pagineProdotti/tazza.html">
+        <a href="./pagineProdotti/tazza.php">
         <button style="margin-top: 15px;">Più info</button>
         </a>
     </div>

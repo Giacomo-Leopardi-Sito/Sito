@@ -9,18 +9,9 @@
 </head>
 
 <body>
-    <div id="lol"><!--immagine + caratteristiche sito-->
-        <a href="./index.html"><img src="..\IMG\giacomoLeopardilogo.png" alt="logo" id="logo"></a>
-        <div id="catalogo">
-            <table id="menu">
-                <tr id="linkMenu">
-                    <th><a href="./chiSiamo.html">Chi siamo</a></th>
-                    <th><a href="./shop.html">Shop</a></th>
-                    <th><a href="./eventi.html">Eventi</a></th>
-                </tr>
-            </table>
-        </div>
-    </div>
+    <?php
+        include './menu.html'
+    ?>
 
     <div style="margin: 30px 0px;"><!--Sponsor Romics-->
         <div class="contenitoreImg">
